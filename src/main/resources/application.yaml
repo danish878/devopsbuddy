@@ -1,0 +1,15 @@
+spring:
+  thymeleaf:
+    cache: false
+
+  profiles:
+    active: prod
+
+default:
+  to:
+    address: danishdaood@gmail.com
+
+token:
+  expiration:
+    length:
+      minutes: 120
